@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Affiliate Marketing Site - Featured Products</title>
+  <style>
+    /* Basic reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #1E90FF;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color:black;
+    }
+
+    header p {
+      color: #222;
+      font-weight:bolder;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Featured Products Section */
+    .featured-products {
+      margin: 2rem 0;
+    }
+
+    .featured-products h2 {
+      text-align: center;
+      color: #0073e6;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+
+    .products-container {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 420px;
+      padding: 1rem 1.5rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin-bottom: 0.5rem;
+      color: #0073e6;
+      font-size: 1.4rem;
+    }
+
+    .product p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .buy-btn {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: blue;
+    }
+
+    /* Testimonies section */
+    .testimonies {
+      margin-top: 3rem;
+      background-color: #e3f2fd;
+      padding: 2rem;
+      border-radius: 8px;
+    }
+
+    .testimonies h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #0073e6;
+    }
+
+    .testimony {
+      background: white;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .testimony p {
+      font-style: italic;
+      margin-bottom: 0.2rem;
+    }
+
+    .testimony .author {
+      text-align: right;
+      font-weight: bold;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+      .products-container {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .product {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Uroven </h1>
+    <p>Reclaim Your Movement. Rediscover Your Life.</p>
+  </header>
+
+  <main>
+    <!-- Featured Products -->
+    <section class="featured-products" aria-label="Featured Products">
+      <h2>improve your sexual function and stamina.</h2>
+      <div class="products-container">
+        <div class="product">
+          <img src="./p1.jpg" alt="SuperWidget 3000" />
+          <h3>Uroven</h3>
+          <p>The ultimate formula that boosts your  erectile performance by 100%!</p>
+          <a href="https://affiliate-link1.com" class="buy-btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+        </div>
+
+        <div class="product">
+          <img src="https://via.placeholder.com/400x250?text=Product+2" alt="Gadget Pro Max" />
+          <h3>Gadget Pro Max</h3>
+          <p>Experience cutting-edge technology with this all-in-one gadget.</p>
+          <a href="https://affiliate-link2.com" class="buy-btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonies -->
+    <section class="testimonies" aria-label="Customer Testimonies">
+      <h2>What Our Customers Say</h2>
+
+      <div class="testimony">
+        <p>"Using SuperWidget 3000 has transformed how I work every day. Highly recommend!"</p>
+        <div class="author">— Jamie L.</div>
+      </div>
+
+      <div class="testimony">
+        <p>"Gadget Pro Max exceeded my expectations. The quality and performance are top-notch."</p>
+        <div class="author">— Sarah K.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Best Affiliate Products. All rights reserved.
+  </footer>
+</body>
+</html>
